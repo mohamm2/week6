@@ -1,8 +1,9 @@
-In this exercise, you will write an extension VI that analyzes one of the measured resonance curves of [Kundt's Tube](http://en.wikipedia.org/wiki/Kundt's_tube). Create this VI inside of your Kundt's tube project and name it ResonanceAnalyzer.
+In this exercise, you will write an extension VI that analyzes one of the measured resonance curves of [Kundt's Tube](http://en.wikipedia.org/wiki/Kundt's_tube). Create this VI inside of your Kundt's tube project and name it ResonanceAnalyzer. 
 
 This VI should have two parts: simulation and experiment.
 
-0) Simulation part creates simulated data for an acoustic resonance curve for given parameters. You need to come up with functional form of the resonance curve. After simulating data, add Gaussian noise centered around zero with sigma defined as noise level.
+0) Simulation part creates simulated data for an acoustic resonance curve for given parameters. You need to come up with functional form of the [resonance curve](https://en.wikipedia.org/wiki/Resonance). Note that the function in that reference is for the _intensity_, you want the amplitude. See the derivation, with a simple functional form [here](Resonance.pdf).
+After simulating data, add Gaussian noise centered around zero with sigma defined as noise level.
 
 ![CreateIntegerArray.vi](images/simulation.png)
 
